@@ -1,0 +1,23 @@
+/* CHATBOT */
+/*
+- WALL-E
+*/
+
+// WALL-E
+
+.wall-e {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  width: 100vw;
+  @include breakpoint($tablet) {
+    width: 75vw;
+  }
+  @include breakpoint($desktop) {
+    width: 50vw;
+  }
+  // wall-e img
+  img {
+    width: 100%;
+  }
+}
