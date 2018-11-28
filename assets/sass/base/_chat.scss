@@ -68,12 +68,16 @@
   }
 }
 
-.chat--wall-e {
+.wall-e-chat{
   font-size: 1.5rem;
   text-align: center;
   //.chat__container
-  .chat__container {
+  &__container {
+    position: relative;
+    border-radius: .4em;
+    margin: 0 auto;
     background: $space-white;
+    max-width: 90vw;
     @include breakpoint($tablet) {
       width: 50vw;
     }
@@ -82,23 +86,22 @@
     }
     //.chat__container:after
     &:after {
-    content: '';
+	content: '';
 	position: absolute;
 	bottom: 0;
 	left: 50%;
 	width: 0;
 	height: 0;
-	border: 20px solid transparent;
+	border: 10px solid transparent;
 	border-top-color: $space-white;
 	border-bottom: 0;
-	border-left: 0;
 	margin-left: -10px;
-	margin-bottom: -20px;
+	margin-bottom: -10px;
       margin-top: 0;
       top: auto;
     }
   }
-  .chat__text {
+  &__text {
     padding: 1rem;
   }
 }
