@@ -1,6 +1,7 @@
 /* CHAT */
 /*
 - CHAT
+- WALL-E CHAT
 */
 
 // CHAT
@@ -42,8 +43,62 @@
   //.chat__input
   &__input {
     box-sizing: border-box;
-    padding: 1rem;
-    margin: 3rem;
+    background: $wall-e-yellow;
+    border-bottom: 3px solid $wall-e-yellow-dirty;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    margin: 1.5rem 4rem;
     width: 100%;
+    &::placeholder {
+      font-style: italic;
+    }
+  }
+  //.chat__button
+  &__button {
+    background: $wall-e-yellow-dirty;
+    border: 0;
+    color: $space-white;
+    font-size: 1.5rem;
+    font-weight: 300;
+    min-width: 8rem;
+    padding: 1rem; 
+  }
+}
+
+.chat--wall-e {
+  font-size: 1.5rem;
+  text-align: center;
+  //.chat__container
+  .chat__container {
+    background: $space-white;
+    @include breakpoint($tablet) {
+      width: 50vw;
+    }
+    @include breakpoint($desktop) {
+      width: 40vw;
+    }
+    //.chat__container:after
+    &:after {
+    content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-top-color: $space-white;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -10px;
+	margin-bottom: -20px;
+      margin-top: 0;
+      top: auto;
+    }
+  }
+  .chat__text {
+    padding: 1rem;
   }
 }
