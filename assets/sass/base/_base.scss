@@ -1,6 +1,7 @@
 /* CHATBOT */
 /*
 - BASE
+- HIDE & SHOW
 */
 
 // BASE
@@ -10,5 +11,17 @@ body {
   margin: 0;
 }
 
+// HIDE & SHOW
+.hide {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s linear 300ms, opacity 300ms;
+}
+
+.show {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s linear 0s, opacity 300ms;
+}
 
 
