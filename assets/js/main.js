@@ -7,13 +7,24 @@ const chatResponseContainer = document.getElementsByClassName('user-chat__contai
 const chatForm = document.getElementById('chatForm');
 
 let chatInputMessage = '';
+let keyPhrase = '';
 
+let keyPhrases = [
+  'eva',
+  'wall-e',
+  'garbage',
+  'cockroach',
+  'plant',
+  'space',
+  'alone',
+  'name',
+];
 
 // FUNCTIONS
 
 // Wall-e Initial Response
 (function walleInitialResponse (){
-  chatOutput.innerText= 'Good morning, Eva';
+  chatOutput.innerText= 'Eva, is that you?';
 })();
 
 // Wall-e Response
@@ -26,6 +37,19 @@ function userInput (){
   chatInputMessage = chatInput.value;
   console.log(chatInputMessage);
   chatResponse.innerText = chatInputMessage;
+  checkForKeyPhrases(chatInputMessage);
+}
+
+// Check user input for key terms
+function checkForKeyPhrases(message) {
+  for (let i = 0; i < keyPhrases.length; i++) {
+    console.log(message);
+    console.log([i]);
+    if(message.includes(keyPhrases[i])){
+      console.log(keyPhrases[i]);
+      return keyPhrase = keyPhrases[i];
+    }
+  }
 }
 
 // Clear User Input
@@ -37,7 +61,6 @@ function clearUserInput (){
 // Check if user chat is empty, if not show parent container
 function checkUserChat (){
   if(chatResponse.innerHTML != ''){
-    console.log('not empty');
     chatResponseContainer.classList.remove('hide');
     chatResponseContainer.classList.add('show');
   }
@@ -60,6 +83,7 @@ chatButton.addEventListener('click', function() {
   clearUserInput();
   walleResponse();
   checkUserChat();
+  console.log('key phrase is: ' + keyPhrase); 
 });
 
 
