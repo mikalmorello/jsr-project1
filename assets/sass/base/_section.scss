@@ -16,16 +16,19 @@
 // SECTION CHAT FORM
 
 .section--chat {
-  flex-grow:1;
+  
   margin: 0 auto;
-  min-height: 10rem;
+  //min-height: 10rem;
 }
 
 
 // SECTION USER CHAT
 
 .section--user-chat {
+  flex-grow:1;
   margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  
 }
 
 
