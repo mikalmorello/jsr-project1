@@ -13,11 +13,11 @@
   </header>
   <main class="main">
     <section class="section section--chat">
-      <form id="chatForm" class="chat">
+      <form id="chatForm" class="chat" onSubmit="return false;">
         <div class="chat__container">
           <div class="chat__box">
             <input id="chatInput" class="chat__input" placeholder="Ask Wall-e anything!"/>
-            <button type="button" id="chatButton" class="chat__button">Chat</button>
+            <button value="Submit" type="button" id="chatButton" class="chat__button">Chat</button>
             <!--<div id="dave" class="chat-pane"></div>
             <div id="hal" class="chat-pane"></div>-->
           </div>
