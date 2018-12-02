@@ -97,8 +97,13 @@ function walleResponse (){
 // User Input
 function userInput (){
   chatInputMessage = chatInput.value;
-  chatResponse.innerText = chatInputMessage;
-  checkForQuestionMark(chatInputMessage);
+  if(chatInputMessage === ''){
+    console.log('empty');
+    chatResponse.innerText = `I'm speechless`;
+  } else {
+    chatResponse.innerText = chatInputMessage;
+    checkForQuestionMark(chatInputMessage);
+  }
   checkForKeyPhrases(chatInputMessage);
 }
 
