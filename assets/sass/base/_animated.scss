@@ -1,6 +1,18 @@
 /* ANIMATION */
 /*
-- ANIMATION BASICS
+- EYE TRANSFORM
 */
 
-// ANIMATION BASICS
+// EYE TRANSFORM
+
+.eye {
+  transition: transform 1s ease;
+}
+
+.eye--right {
+  transform-origin: 56% 10%; 
+}
+
+.eye--left {
+  transform-origin: 45% 10%; 
+}

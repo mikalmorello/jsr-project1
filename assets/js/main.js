@@ -5,6 +5,7 @@ const chatOutput = document.getElementsByClassName('wall-e-chat__text')[0];
 const chatResponse = document.getElementsByClassName('user-chat__text')[0];
 const chatResponseContainer = document.getElementsByClassName('user-chat__container')[0];
 const chatForm = document.getElementById('chatForm');
+const walle = document.getElementsByClassName('wall-e')[0];
 
 let chatInputMessage = '';
 let keyPhrase = '';
@@ -17,12 +18,10 @@ let keyPhrases = [
   'space',
   'alone',
   'name',
-  'hi'
+  'hi',
+  'maia'
+  
 ];
-
-var responseCount = 0;
-
-
 let randomResponse = [
   'Well, good morning, and welcome to day 255,642 aboard the Axiom.',
   'M-O?',
@@ -34,6 +33,14 @@ let randomResponse = [
   'Leave the flying to us.',
   '[Shrinks back in surprise]'
 ];
+let eyeLeftContainer = document.getElementById('eye-container-left');
+let eyeLeft = document.getElementById('eye-left');
+let eyeRightContainer = document.getElementById('eye-container-right');
+let eyeRight = document.getElementById('eye-right');
+
+var responseCount = 0;
+
+
 
 // FUNCTIONS
 
@@ -59,6 +66,8 @@ function walleResponse (){
     switch(keyPhrase) {
         case 'eva':
             chatOutput.innerText= 'Ee-Vah?';
+            walle.classList.remove('slideInUp');
+            walle.classList.add('bounce');
             break;
         case 'wall-e':
             chatOutput.innerText= 'Dirrrrr-ect-tivvve?';
@@ -83,6 +92,9 @@ function walleResponse (){
             break;
         case 'hi':
             chatOutput.innerText= 'Hi, how are you?';
+            break;
+        case 'maia':
+            chatOutput.innerText= 'I love my mai mai';
             break;
         default:
             chatOutput.innerText= 'I do not compute';
@@ -133,23 +145,36 @@ function checkUserChat (){
 }
 
 // Check if user message has a question mark
-
 function checkForQuestionMark(message) {
   if(message.includes('?')){
       console.log('has question');
   } 
 }
 
+// Get bounding box of SVG element
+function svgBoundries (container, element){
+  var rect = container.getBoundingClientRect();
+  element.style.height = rect.height;
+  element.style.width = rect.width;
+}
+
+// Rotate eyes a random degree
+function rotateEyes(degreeRange){
+  let rotation = Math.ceil(Math.random() * degreeRange);
+  eyeRight.style.transform = 'rotate(' + rotation + 'deg)';
+  eyeLeft.style.transform = 'rotate(-' + rotation + 'deg)';
+  console.log(rotation);
+}
 
 // EVENTS
 
 // Submit message if user clicks submit button
 chatButton.addEventListener('click', function() {
-  console.log('button clicked');
   userInput();
   clearUserInput();
   checkUserChat();
   walleResponse(keyPhrase);
+  rotateEyes(20);
 });
 
 
@@ -159,11 +184,10 @@ chatInput.addEventListener('keyup', function(event) {
   if (event.keyCode === 13) {
     event.preventDefault();
     chatButton.click();
-    console.log('enter hit');
   }
 });
 
 
-
-
-
+// Get dynamic boundries of SVG content, apply to parent
+svgBoundries(eyeLeftContainer, eyeLeft);
+svgBoundries(eyeRightContainer, eyeRight);

@@ -35,7 +35,7 @@
 // SECTION WALL-E CHAT
 
 .section--wall-e-chat {
-  margin-bottom: 1.5rem;
+  z-index: 0;
 }
 
 
@@ -45,7 +45,9 @@
   align-self: flex-end;
   margin: 0 auto;
   max-height: 33.3vh;
+  padding-top: 1.5rem;
   overflow: hidden;
+  z-index: 10;
 }
 
 

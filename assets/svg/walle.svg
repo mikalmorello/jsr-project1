@@ -6,43 +6,47 @@
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
         <g id="walle" sketch:type="MSArtboardGroup">
-            <g id="Group" sketch:type="MSLayerGroup" transform="translate(0.000000, 5.000000)" stroke-width="10">
-                <g id="lefttire" transform="translate(0.000000, 260.000000)" stroke="#605F61" fill="#A08D83" sketch:type="MSShapeGroup">
+            <g id="Group" sketch:type="MSLayerGroup" transform="translate(0.000000, 5.000000)">
+                <g id="lefttire" transform="translate(0.000000, 260.000000)" stroke="#605F61" stroke-width="10" fill="#A08D83" sketch:type="MSShapeGroup">
                     <rect id="Rectangle-10" x="0" y="0" width="81" height="64"></rect>
                     <rect id="Rectangle-10" x="0" y="54" width="81" height="64"></rect>
                     <rect id="Rectangle-10" x="0" y="108" width="81" height="64"></rect>
                 </g>
-                <g id="righttire" transform="translate(277.000000, 260.000000)" stroke="#605F61" fill="#A08D83" sketch:type="MSShapeGroup">
+                <g id="righttire" transform="translate(277.000000, 260.000000)" stroke="#605F61" stroke-width="10" fill="#A08D83" sketch:type="MSShapeGroup">
                     <rect id="Rectangle-10" x="0" y="0" width="81" height="64"></rect>
                     <rect id="Rectangle-10" x="0" y="54" width="81" height="64"></rect>
                     <rect id="Rectangle-10" x="0" y="108" width="81" height="64"></rect>
                 </g>
-                <g id="body" transform="translate(71.000000, 158.000000)" stroke="#605F61" sketch:type="MSShapeGroup">
+                <g id="body" transform="translate(71.000000, 158.000000)" stroke="#605F61" stroke-width="10" sketch:type="MSShapeGroup">
                     <rect fill="#FCDC7D" x="0" y="0" width="216" height="215"></rect>
                     <rect id="chest" fill="#A5A5A5" x="0" y="0" width="216" height="73"></rect>
                 </g>
-                <g id="hand1" transform="translate(47.000000, 198.000000)" sketch:type="MSShapeGroup" fill="#E7D7C5">
+                <g id="hand1" transform="translate(47.000000, 198.000000)" stroke-width="10" sketch:type="MSShapeGroup" fill="#E7D7C5">
                     <ellipse id="Oval-1" stroke="#605F61" cx="28.5" cy="28.5" rx="28.5" ry="28.5"></ellipse>
                     <rect id="Rectangle-6" stroke="#605E63" x="24" y="0" width="54" height="34"></rect>
                     <rect id="Rectangle-6" stroke="#605E63" x="24" y="24" width="54" height="34"></rect>
                 </g>
-                <g id="hand2" transform="translate(233.000000, 198.000000)" sketch:type="MSShapeGroup" fill="#E7D7C5">
+                <g id="hand2" transform="translate(233.000000, 198.000000)" stroke-width="10" sketch:type="MSShapeGroup" fill="#E7D7C5">
                     <ellipse id="Oval-1" stroke="#605F61" cx="48.5" cy="28.5" rx="28.5" ry="28.5"></ellipse>
                     <rect id="Rectangle-6" stroke="#605E63" x="0" y="0" width="54" height="34"></rect>
                     <rect id="Rectangle-6" stroke="#605E63" x="0" y="24" width="54" height="34"></rect>
                 </g>
-                <g id="head" transform="translate(135.000000, 8.000000)" stroke="#605F61" sketch:type="MSShapeGroup">
+                <g id="head" transform="translate(136.000000, 8.000000)" stroke="#605F61" stroke-width="10" sketch:type="MSShapeGroup">
                     <circle id="Oval-3" cx="23.5" cy="57.5" r="23.5"></circle>
-                    <circle id="Oval-3" cx="63.5" cy="57.5" r="23.5"></circle>
-                    <rect id="shoulder" fill="#FCDC7D" x="6" y="131" width="75" height="29"></rect>
-                    <rect id="neck" fill="#FCDC7D" x="27" y="0" width="34" height="141"></rect>
-                    <rect fill="#979797" x="24" y="0" width="40" height="33"></rect>
+                    <circle id="Oval-3" cx="62.5" cy="57.5" r="23.5"></circle>
+                    <rect id="shoulder" fill="#FCDC7D" x="5" y="131" width="75" height="29"></rect>
+                    <rect id="neck" fill="#FCDC7D" x="26" y="0" width="34" height="141"></rect>
+                    <rect fill="#979797" x="23" y="0" width="40" height="33"></rect>
                 </g>
-                <path d="M163.09081,0 L68.0576051,22.6025391 C68.0576051,22.6025391 14.065419,36.4140625 31.4482315,81.9707031 C48.831044,127.527344 102.198232,102.558594 102.198232,102.558594 C102.198232,102.558594 147.290022,81.4335938 159.665028,50.1464844 C172.040035,18.859375 163.09081,0 163.09081,0 Z" id="lefteye" stroke="#5F5F61" fill="#979797" sketch:type="MSShapeGroup"></path>
-                <path d="M327.09081,0 L232.057605,22.6025391 C232.057605,22.6025391 178.065419,36.4140625 195.448232,81.9707031 C212.831044,127.527344 266.198232,102.558594 266.198232,102.558594 C266.198232,102.558594 311.290022,81.4335938 323.665028,50.1464844 C336.040035,18.859375 327.09081,0 327.09081,0 Z" id="righteye" stroke="#5F5F61" fill="#979797" sketch:type="MSShapeGroup" transform="translate(261.109497, 54.693324) scale(-1, 1) translate(-261.109497, -54.693324) "></path>
+                <g id="left" transform="translate(28.000000, 0.000000)" sketch:type="MSShapeGroup">
+                    <path d="M135.09081,0 L40.0576051,22.6025391 C40.0576051,22.6025391 -13.934581,36.4140625 3.44823151,81.9707031 C20.831044,127.527344 74.1982315,102.558594 74.1982315,102.558594 C74.1982315,102.558594 119.290022,81.4335938 131.665028,50.1464844 C144.040035,18.859375 135.09081,0 135.09081,0 Z" id="lefteye" stroke="#5F5F61" stroke-width="10" fill="#979797"></path>
+                    <circle id="lefteyeball" fill="#605F61" cx="88" cy="50" r="29"></circle>
+                </g>
+                <g id="right" transform="translate(192.000000, 0.000000)" sketch:type="MSShapeGroup">
+                    <path d="M135.09081,0 L40.0576051,22.6025391 C40.0576051,22.6025391 -13.934581,36.4140625 3.44823151,81.9707031 C20.831044,127.527344 74.1982315,102.558594 74.1982315,102.558594 C74.1982315,102.558594 119.290022,81.4335938 131.665028,50.1464844 C144.040035,18.859375 135.09081,0 135.09081,0 Z" id="righteye" stroke="#5F5F61" stroke-width="10" fill="#979797" transform="translate(69.109497, 54.693324) scale(-1, 1) translate(-69.109497, -54.693324) "></path>
+                    <circle id="righteyeball" fill="#605F61" cx="50" cy="50" r="29"></circle>
+                </g>
             </g>
-            <circle id="lefteyeball" fill="#605F61" sketch:type="MSShapeGroup" cx="116" cy="55" r="29"></circle>
-            <circle id="righteyeball" fill="#605F61" sketch:type="MSShapeGroup" cx="242" cy="55" r="29"></circle>
         </g>
     </g>
 </svg>
