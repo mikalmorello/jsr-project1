@@ -1,32 +1,33 @@
-# Chatbot!
+# Wall-e Chatbot!
 
-## Our favorite AI nemesis, HAL9000 vs. Dave Bowman
 
-* Construct a chatbot that responds to various inputs from Dave
-* Feel free to use the HTML and CSS scaffolds or construct your own
-* Be creative with your logic and responses!
-* Feel free to also change the characters and anything in the starter code—be creative!
+## Interaction Instructions
 
-## Grading Rubric (Pass/Partial/Fail)
+* Wall-e will respond once you hit a submission limit of 5, 10, and 20. At 20, Wall-e will overheat and stop responding until you refresh
+* If you submit an empty input, the system will respond for you by saying "I'm speechless"
+* If you include a key term in your submission, Wall-e will offer a custom response.  Options are:
+** eva (Wall-e will get excited and jump when you mention her name)
+** wall-e
+** garbage
+** cockroach
+** plant
+** space
+** alone
+** name
+** hi
+** maia
+** allie
+* If you don't include a keyterm, Wall-e will offer a generic random response
 
-### Required
 
-* Have the AI respond to user input
-* Do at least 3 different things
-* One of the commands must utilize the list of people in the class to send a reply
-* Use at least 1 conditional to change the response
-* Leverage a for loop to iterate over a collection
-* Use a random component
-* Go above and beyond simple `if/else` statements
+## Interaction Notes
 
-### Stretch Goals
+* You can submit the form by pressing enter in the input or by clicking the button
+* Wall-e's eyes will rotate randomly between 0 - 20 degrees on each submission
+* Site is mobile responsive, but only tested on Chrome
 
-* Have 2 or more AIs responding based upon user input
-* Use a regular expression to parse and manipulate the response
-* Have a conversation between two AIs (without creating an infinite loop!)
 
-## Deliverables
-
-* A working chatbot hosted somewhere publicly accessible (CodePen, Github Pages, etc.)
-* A new git respository containing your code
-* A `README.md` file with explanations of what your bot does, what commands it responds to, the approach taken, unsolved problems, etc.
+### Resource Notes (Thanks)
+* I built an SVG image based upon Morgan's Wall-e drawing (http://www.morganmspencer.com/projects/index.html)
+* I used animate.css for some of the animations
+* I used Gulp for the front-end tooling
