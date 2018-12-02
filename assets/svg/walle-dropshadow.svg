@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="376px" height="449px" viewBox="0 0 376 449" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.1 (25234) - http://www.bohemiancoding.com/sketch -->
+    <title>walle</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Group" sketch:type="MSLayerGroup" transform="translate(9.000000, 6.000000)">
+            <g id="walle" sketch:type="MSShapeGroup">
+                <g id="Group">
+                    <g id="lefttire" transform="translate(0.000000, 260.000000)" stroke="#605F61" fill="#A08D83">
+                        <rect id="Rectangle-10" x="0" y="0" width="81" height="64"></rect>
+                        <rect id="Rectangle-10" x="0" y="54" width="81" height="64"></rect>
+                        <rect id="Rectangle-10" x="0" y="108" width="81" height="64"></rect>
+                    </g>
+                    <g id="righttire" transform="translate(277.000000, 260.000000)" stroke="#605F61" fill="#A08D83">
+                        <rect id="Rectangle-10" x="0" y="0" width="81" height="64"></rect>
+                        <rect id="Rectangle-10" x="0" y="54" width="81" height="64"></rect>
+                        <rect id="Rectangle-10" x="0" y="108" width="81" height="64"></rect>
+                    </g>
+                    <g id="body" transform="translate(71.000000, 158.000000)" stroke="#605F61">
+                        <rect id="Rectangle-path" fill="#FCDC7D" x="0" y="0" width="216" height="215"></rect>
+                        <rect id="chest" fill="#A5A5A5" x="0" y="0" width="216" height="73"></rect>
+                    </g>
+                    <g id="hand1" transform="translate(47.000000, 198.000000)" fill="#E7D7C5">
+                        <circle id="Oval-1" stroke="#605F61" cx="28.5" cy="28.5" r="28.5"></circle>
+                        <rect id="Rectangle-6" stroke="#605E63" x="24" y="0" width="54" height="34"></rect>
+                        <rect id="Rectangle-6" stroke="#605E63" x="24" y="24" width="54" height="34"></rect>
+                    </g>
+                    <g id="hand2" transform="translate(233.000000, 198.000000)" fill="#E7D7C5">
+                        <circle id="Oval-1" stroke="#605F61" cx="48.5" cy="28.5" r="28.5"></circle>
+                        <rect id="Rectangle-6" stroke="#605E63" x="0" y="0" width="54" height="34"></rect>
+                        <rect id="Rectangle-6" stroke="#605E63" x="0" y="24" width="54" height="34"></rect>
+                    </g>
+                    <g id="head" transform="translate(135.000000, 8.000000)" stroke="#605F61">
+                        <circle id="Oval-3" cx="23.5" cy="57.5" r="23.5"></circle>
+                        <circle id="Oval-3" cx="63.5" cy="57.5" r="23.5"></circle>
+                        <rect id="shoulder" fill="#FCDC7D" x="6" y="131" width="75" height="29"></rect>
+                        <rect id="neck" fill="#FCDC7D" x="27" y="0" width="34" height="141"></rect>
+                        <rect id="Rectangle-path" fill="#979797" x="24" y="0" width="40" height="33"></rect>
+                    </g>
+                    <g id="eye-left" transform="translate(28.000000, 0.000000)">
+                        <path d="M135.09081,0 L40.0576051,22.6025391 C40.0576051,22.6025391 -13.934581,36.4140625 3.4482315,81.9707031 C20.831044,127.527344 74.198232,102.558594 74.198232,102.558594 C74.198232,102.558594 119.290022,81.4335938 131.665028,50.1464844 C144.040035,18.859375 135.09081,0 135.09081,0 L135.09081,0 Z" id="eye-container-left" stroke="#5F5F61" fill="#979797"></path>
+                        <circle id="eyeball-left" fill="#605F61" cx="88" cy="55" r="29"></circle>
+                    </g>
+                    <g id="eye-right" transform="translate(192.000000, 0.000000)">
+                        <path d="M135.09081,0 L40.0576051,22.6025391 C40.0576051,22.6025391 -13.9345809,36.4140625 3.44823207,81.9707031 C20.8310441,127.527344 74.1982321,102.558594 74.1982321,102.558594 C74.1982321,102.558594 119.290022,81.4335938 131.665028,50.1464844 C144.040035,18.859375 135.09081,0 135.09081,0 L135.09081,0 Z" id="eye-container-right" stroke="#5F5F61" fill="#979797" transform="translate(69.109497, 54.693324) scale(-1, 1) translate(-69.109497, -54.693324) "></path>
+                        <circle id="eyeball-right" fill="#605F61" cx="50" cy="55" r="29"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

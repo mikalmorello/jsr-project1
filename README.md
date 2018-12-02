@@ -3,6 +3,7 @@
 
 ## Interaction Instructions
 
+* Wall-e will start the conversation by asking if your Eve (Eva)
 * Wall-e will respond once you hit a submission limit of 5, 10, and 20. At 20, Wall-e will overheat and stop responding until you refresh
 * If you submit an empty input, the system will respond for you by saying "I'm speechless"
 * If you include a key term in your submission, Wall-e will offer a custom response.  Options are:
@@ -29,5 +30,6 @@
 
 ### Resource Notes (Thanks)
 * I built an SVG image based upon Morgan's Wall-e drawing (http://www.morganmspencer.com/projects/index.html)
+* I used Pixars Wall-e background image from their website (https://www.pixar.com/feature-films/walle/)
 * I used animate.css for some of the animations
 * I used Gulp for the front-end tooling

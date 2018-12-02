@@ -20,7 +20,7 @@
       max-width: 66.6vw;
     }
     @include breakpoint($desktop) {
-      max-width: 33.3vw;
+      max-width: 28vw;
     }
     //.header__logo img
     img {
@@ -35,6 +35,9 @@
 
 .main {
   background: $trash-gray;
+  background-image: url(../images/earth4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   min-height: 80vh; 

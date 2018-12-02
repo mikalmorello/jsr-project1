@@ -73,7 +73,7 @@ function walleResponse (){
             chatOutput.innerText= 'Dirrrrr-ect-tivvve?';
             break;
         case 'garbage':
-            chatOutput.innerText= 'Where? I love garbage.';
+            chatOutput.innerText= 'Garbage!  All I see is treasure.';
             break;
         case 'cockroach':
             chatOutput.innerText= 'Yes, my best friend is a cockroach.';
