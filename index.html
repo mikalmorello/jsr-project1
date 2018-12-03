@@ -46,7 +46,13 @@
         <!--<img src="assets/svg/walle.svg" />-->
         <!-- SVG -->
         <svg viewBox="0 0 356 437" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
-            <defs></defs>
+  <defs>
+    <filter id="f3" x="0" y="0" width="200%" height="200%">
+      <feOffset result="offOut" in="SourceAlpha" dx="20" dy="20" />
+      <feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
+      <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+    </filter>
+  </defs>
             <g stroke="none" stroke-width="1" fill="none" >
                 <g id="walle">
                     <g transform="translate(0.000000, 5.000000)" stroke-width="10">

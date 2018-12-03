@@ -19,7 +19,8 @@ let keyPhrases = [
   'alone',
   'name',
   'hi',
-  'maia'
+  'maia',
+  'allie'
   
 ];
 let randomResponse = [
@@ -95,6 +96,9 @@ function walleResponse (){
             break;
         case 'maia':
             chatOutput.innerText= 'I love my mai mai';
+            break;
+       case 'maia':
+            chatOutput.innerText= 'How is my al pal?';
             break;
         default:
             chatOutput.innerText= 'I do not compute';
